@@ -21,7 +21,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -63,7 +63,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "rofi","-show","drun", NULL };
-static const char *termcmd[]  = { "urxvtc", NULL };
+static const char *termcmd[]  = { "st", NULL };
 static const char *slockcmd[] = { "slock", NULL };
 /*static const char *volup[] = { "wpctl", "set-volume", "57", "5%+", NULL }
 static const char *voldown[] = { "wpctl", "set-volume", "57", "5%-", NULL }*/
